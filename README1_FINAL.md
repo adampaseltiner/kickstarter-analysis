@@ -17,8 +17,9 @@
   ![Parent Category Outcomes](https://user-images.githubusercontent.com/82347825/115979065-a559ec80-a551-11eb-9fc4-6ce6f429bcfc.png)
   
   However, since Louise is most interested in theater (the parent category) and plays (the subcategory), I decided to filter out the extraneous parent and subcategories and focus solely on her main interests. Doing so resulted in this chart: 
-  
-  ![Count of Outcomes_Plays](https://user-images.githubusercontent.com/82347825/115979461-04b8fc00-a554-11eb-921c-72f572662e43.png)
+ 
+  ![Count of Outcomes_Plays](https://user-images.githubusercontent.com/82347825/115979682-44341800-a555-11eb-8169-2e7d00237dfe.png)
+
   
   
 
