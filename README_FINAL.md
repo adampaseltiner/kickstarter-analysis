@@ -14,11 +14,12 @@
   
   Now that I had added the above data to the spreadsheet, I decided to create a pivot table and pivot chart based on the outcomes of each of the parent campaign categories:
   
-  ![Parent Category Outcomes](https://user-images.githubusercontent.com/82347825/115979065-a559ec80-a551-11eb-9fc4-6ce6f429bcfc.png)
+ ![Parent Category Outcomes](https://user-images.githubusercontent.com/82347825/116015908-fc6ec880-a608-11eb-84ee-ae965269ff4f.png)
   
   However, since Louise is most interested in theater (the parent category) and plays (the subcategory), I decided to filter out the extraneous parent and subcategories and focus solely on her main interests. Doing so resulted in this chart: 
  
-  ![Count of Outcomes_Plays](https://user-images.githubusercontent.com/82347825/115979682-44341800-a555-11eb-8169-2e7d00237dfe.png)
+ ![Count of Outcomes_Plays](https://user-images.githubusercontent.com/82347825/116016335-515f0e80-a60a-11eb-963d-64783d1597f0.png)
+
 
   
   
