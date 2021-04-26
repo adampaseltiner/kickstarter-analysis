@@ -19,6 +19,17 @@
   However, since Louise is most interested in theater (the parent category) and plays (the subcategory), I decided to filter out the extraneous parent and subcategories and focus solely on her main interests. Doing so resulted in this chart: 
  
  ![Count of Outcomes_Plays](https://user-images.githubusercontent.com/82347825/116016335-515f0e80-a60a-11eb-963d-64783d1597f0.png)
+ 
+  After finding the specifics about the successes and failures by category, I decided it was important to then look at the timing of Kickstarter campaigns and whether or not (1) how long they last and (2) what time of year they are launched effect the campaign's outcome. Since the data provided to us was in Unix timestamp format, I needed to convert it to `DD/MM/YYYY` by using the formula `=(((J2/60)/60)/24)+DATE(1970,1,1)`. Using the converted data results for date and creating a new pivot chart to show the outcomes of Kickstarter campaign based on launch date yields the following chart, which clearly shows that a launch date in the month of May yields the largest number of successful campaigns: 
+  
+  ![Outcomes Based On Launch Date](https://user-images.githubusercontent.com/82347825/116021198-bb30e580-a615-11eb-90dd-f09c891e35cc.png)
+
+  While in Edinburgh for a film festival, Lousie saw several plays and was curious about the details on how they got funded. To pull some of those numbers, we ran a `VLOOKUP` formula to pull the goals, pledged amounts, average donations and total number of backers. For example: `=VLOOKUP(A2,Kickstarter!B:D,3,FALSE)` yielded the goal amount for the play *Be Prepared*.
+  
+  Even though some of the data on it's face provided helpful insights about the fundraising trends for Kickstarter campaigns, it was prudent to delve further into the statistical components of the data set to determine our conclusions rather than reading things at face value. Therefore, I chose to analyze the central tendencies to show the averages (mean, median and mode) of the pledged goals:
+  
+  ![Descriptive Statistics](https://user-images.githubusercontent.com/82347825/116025649-07345800-a61f-11eb-8745-ed66530dae07.png)
+
 
 
   
