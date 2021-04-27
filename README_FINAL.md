@@ -26,11 +26,11 @@
 
   While in Edinburgh for a film festival, Lousie saw several plays and was curious about the details on how they got funded. To pull some of those numbers, we ran a `VLOOKUP` formula to pull the goals, pledged amounts, average donations and total number of backers. For example: `=VLOOKUP(A2,Kickstarter!B:D,3,FALSE)` yielded the goal amount for the play *Be Prepared*.
   
-  Even though some of the data on it's face provided helpful insights about the fundraising trends for Kickstarter campaigns, it was prudent to delve further into the statistical components of the data set to determine our conclusions rather than reading things at face value. Therefore, I chose to analyze the central tendencies to show the averages (mean, median and mode) of the pledged goals:
+  Although the aforementioned data provided insight into the fundraising trends for Kickstarter campaigns, it was prudent to delve further into the statistical components of the data set to determine our conclusions rather than reading things at face value. Therefore, I chose to analyze the central tendencies to show the averages (`=MEAN` and `=MEDIAN` formulas) of the pledged goals:
   
   ![Descriptive Statistics](https://user-images.githubusercontent.com/82347825/116025649-07345800-a61f-11eb-8745-ed66530dae07.png)
 
-
+  This table shows us that the average fundraising goal of a successful Kickstarter campaign is much lower (nearly half!) of that of a failed one. 
 
   
   
