@@ -28,11 +28,21 @@
   
   Although the aforementioned data provided insight into the fundraising trends for Kickstarter campaigns, it was prudent to delve further into the statistical components of the data set to determine our conclusions rather than reading things at face value. Therefore, I chose to analyze the central tendencies to show the averages (`=MEAN` and `=MEDIAN` formulas) of the pledged goals:
   
-  ![Descriptive Statistics](https://user-images.githubusercontent.com/82347825/116025649-07345800-a61f-11eb-8745-ed66530dae07.png)
+ ![Descriptive Statistics 1](https://user-images.githubusercontent.com/82347825/116336580-d121e000-a7a6-11eb-8614-965bad5f116d.PNG)
 
-  This table shows us that the average fundraising goal of a successful Kickstarter campaign is much lower (nearly half!) of that of a failed one. 
-
+  This table shows us that the average fundraising goal of a successful Kickstarter campaign is much lower (nearly half!) of that of a failed one. Looking at the averages, however, does not tell the entire story of the data, and therefore I decided to look at the measures of spread:
   
+  ![Descriptive Statistics 2](https://user-images.githubusercontent.com/82347825/116336790-2827b500-a7a7-11eb-9d44-fe5505d2ce99.PNG)
+
+  Calculating the standard deviation `=STDEV.P('Successful US Kickstarters'!D:D)`, upper and lower quartiles `=QUARTILE.EXC('Successful US Kickstarters'!D:D, 3)` and IQR of the pledged amount shows us the measure of spread for the campaigns: since the mean pledged amount is close to the upper quartile of the pledged amount, that indicates a majority of campaigns are relatively similar in value. It also indicates that there are some outliers in the data set, meaning that some Kickstarter campaigns had incredibly high goals that ultimately failed.
+  
+  Since Louise is intruiged about launching her play in Great Britain, I decided to use the variance data to construct a `Box and Whisker` plot to finally help guide her in setting a goal amount:
+  
+  ![Goals vs Pledged](https://user-images.githubusercontent.com/82347825/116341991-db94a780-a7af-11eb-9af1-dc2b63a1bf38.png)
+
+  This type of chart can help display 
+  
+ 
   
 
   
