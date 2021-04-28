@@ -34,13 +34,13 @@
   
   ![Descriptive Statistics 2](https://user-images.githubusercontent.com/82347825/116336790-2827b500-a7a7-11eb-9d44-fe5505d2ce99.PNG)
 
-  Calculating the standard deviation `=STDEV.P('Successful US Kickstarters'!D:D)`, upper and lower quartiles `=QUARTILE.EXC('Successful US Kickstarters'!D:D, 3)` and IQR of the pledged amount shows us the measure of spread for the campaigns: since the mean pledged amount is close to the upper quartile of the pledged amount, that indicates a majority of campaigns are relatively similar in value. It also indicates that there are some outliers in the data set, meaning that some Kickstarter campaigns had incredibly high goals that ultimately failed.
+  Calculating the standard deviation `=STDEV.P('Successful US Kickstarters'!D:D)`, upper and lower quartiles `=QUARTILE.EXC('Successful US Kickstarters'!D:D, 3)` and IQR of the pledged amounts shows us the measure of spread for the campaigns: since the mean pledged amount is close to the upper quartile of the pledged amount, that indicates a majority of campaigns are relatively similar in value. It also indicates that there are some outliers in the data set, meaning that some Kickstarter campaigns had incredibly high goals that ultimately failed.
   
-  Since Louise is intruiged about launching her play in Great Britain, I decided to use the variance data to construct a `Box and Whisker` plot to finally help guide her in setting a goal amount:
+  Since Louise is intruiged about launching her play in Great Britain, I decided to use the variance data to construct a `Box and Whisker` plot to finally help guide her in setting a goal amount, since visualizing it this way best shows the distribution of the data:
   
   ![Goals vs Pledged](https://user-images.githubusercontent.com/82347825/116341991-db94a780-a7af-11eb-9af1-dc2b63a1bf38.png)
 
-  This type of chart can help display 
+  
   
  
   
