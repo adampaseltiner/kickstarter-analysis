@@ -6,8 +6,6 @@
   In this project I wanted to help Louise, a playright, best determine how to get her new play *Fever* crowdfunded on Kickstarter. To do so, I analyzed various data sets about crowdfunding campaigns to help illuminate what specific factors can help make a crowdfunding project successful. 
 
 ## Analysis and Challenges
-
-### Analysis of Outcomes Based on Launch Date
   To begin, I started by looking at Kickstarter campaigns that nearly missed their fundraising goals. To do so, I used the `ROUND` formula to analyze the amount pledged vs. the campaigns goal. For example: `=ROUND(E2/D2*100,0)`  
   
   Next, I wanted to see the average donations that backers contributed to a campaign, so I used a similar `ROUND` formula, however, I wanted to be sure to protect the formula from errors in case the campaign had zero backers behind it (since you can't divide by zero). Therefore, using the formula `=IFERROR(ROUND(E2/L2,2),0)` accurately gave me the average donations per backer.
@@ -40,19 +38,19 @@
   
   ![Goals vs Pledged](https://user-images.githubusercontent.com/82347825/116341991-db94a780-a7af-11eb-9af1-dc2b63a1bf38.png)
 
+  The main take away from the above chart is this: the mean campaign goal (as indicated by the 'x') shows that the average goal is around $4000, however, that is higher than the outliers for the amounts pledged. Additionally, half of the campaign goals are $2000 or less, which falls in (or near) the 3rd quartile of amounts pledged, which would indicate a high degree of success in that range.
   
-  
- 
-  
+  ### Challenges and Difficulties Encountered
+Overall, the steps taken above was a rather familiar data analysis for me, since I work with Excel often and am rather familiar with the formulas, charts and tables that we used. What was challenging for me at times, however, was remembering that several of the open tabs had filtered information that affected other tables/charts, and needing to go back and clear them/alter them in order for my results to come back accurately.
 
+  ---
   
-  
+## Results
+### Analysis of Outcomes Based on Launch Date
 
 ### Analysis of Outcomes Based on Goals
 
-### Challenges and Difficulties Encountered
 
-## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
