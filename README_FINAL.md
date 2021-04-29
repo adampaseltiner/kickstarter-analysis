@@ -41,21 +41,21 @@
   The main take away from the above chart is this: the mean campaign goal (as indicated by the 'x') shows that the average goal is around $4000, however, that is higher than the outliers for the amounts pledged. Additionally, half of the campaign goals are $2000 or less, which falls in (or near) the 3rd quartile of amounts pledged, which would indicate a high degree of success in that range.
   
   ### Challenges and Difficulties Encountered
-Overall, the steps taken above was a rather familiar data analysis for me, since I work with Excel often and am rather familiar with the formulas, charts and tables that we used. What was challenging for me at times, however, was remembering that several of the open tabs had filtered information that affected other tables/charts, and needing to go back and clear them/alter them in order for my results to come back accurately.
+Overall, the steps taken above was a rather familiar data analysis process for me, since I work with Excel often and am rather familiar with the formulas, charts and tables that we used. However, what was challenging for me at times was remembering that several of the open tabs had formulas and/or filtered data that affected other tables or charts, and needing to go back and clear them/alter them in order for my results to come back accurately.
 
   ---
   
 ## Results
+
 ### Analysis of Outcomes Based on Launch Date
+  1. It is quite clear that the summer months of May-Jul (with May being the most succesful) is the best time of year to launch a successful Kickstarter campaign.
+  2. The data for failed campaigns does not seem to vary much according to the time of year, indicating that the problems with those campaigns are most likely related to their goal amounts. 
 
 ### Analysis of Outcomes Based on Goals
+  1. This graph is deceptive, since it does not take the variance data into account: if one were to look at the graph alone and not consider the total number of projects related to each goal range, one would think that campaigns with goals between $35-45k were just as likely to be funded as those with goals of $5000 and under. Relying solely upon this graph would be misleading and not as resourceful for Louise as a `Box and Whisker` plot.
 
-
-
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
-
-- What can you conclude about the Outcomes based on Goals?
-
-- What are some limitations of this dataset?
-
+### What are some limitations of this dataset?
+  Considering the Kickstarter is a company where backers are given incentives based on the amount of dollars pledged, I think it would be helpful to  see what the reward ranges were for each campaign, and also what the rewards were. Lousie would definitely benefit from being able to get an idea of the types of rewards people were given for the price they were pledging.
+  
 - What are some other possible tables and/or graphs that we could create?
+  I think it would be helpful to chart the success rate of Kickstarter campaigns based on the length of the campaign: does the campaign go only for a few weeks? A few months? Is there a certain campaign length that indicates the highest rate of success? Being able to definitively tell Louise that a one month long campaign yields the highest rate of success would certainly be beneficial to her planning.
